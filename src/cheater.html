@@ -5,7 +5,7 @@
             <button onclick="document.getElementById('cheat').style.display='none'">Close</button>
         </div>
         <div style="display: flex;justify-content: space-between">
-            <fieldset style="width: 45%">
+            <fieldset style="width: 46%">
                 <legend>Conversation</legend>
                 <div>
                     <img src="Icons/Heart.png" />
@@ -18,7 +18,7 @@
                     <button title="Add Submission" onclick="ActorChangeAttitude(0, -1);"><img src="Icons/Navigation/ArrowDownInactive.png" style="width: 32px; height: 32px;"></button>
                 </div>
             </fieldset>
-            <fieldset style="width: 45%">
+            <fieldset style="width: 46%">
                 <legend>Inventory</legend>
                 <button title="Add Armbinder" onclick="PlayerAddInventory('Armbinder', 1)"><img src="Icons/Armbinder_Active.png" style="width: 32px; height: 32px;"></button>
                 <button title="Add BallGag" onclick="PlayerAddInventory('BallGag', 1)"><img src="Icons/BallGag_Active.png" style="width: 32px; height: 32px;"></button>
@@ -40,7 +40,7 @@
             </fieldset>
         </div>
         <div style="display: flex;justify-content: space-between">
-            <fieldset style="width: 45%">
+            <fieldset style="width: 46%">
                 <legend>Time</legend>
                 <div>
                     <img src="Icons/Wait_Active.png" style="width: 32px; height: 32px;" />
@@ -50,7 +50,26 @@
                     <button title="Pause/Resume" onclick="if(RunTimer) StopTimer(CurrentTime); else StartTimer(LimitTimer, LimitChapter, LimitScreen)"><img src="Icons/Wait_Inactive.png" style="width: 32px; height: 32px;"></button>
                 </div>
             </fieldset>
-            <fieldset style="width: 45%">
+            <fieldset style="width: 46%">
+                <legend>Lock Inventory</legend>
+                <button title="Toggle Armbinder" onclick="if(PlayerHasLockedInventory('Armbinder')) PlayerUnlockInventory('Armbinder'); else PlayerLockInventory('Armbinder')"><img src="Icons/Armbinder_Active.png" style="width: 32px; height: 32px;"></button>
+                <button title="Toggle BallGag" onclick="if(PlayerHasLockedInventory('BallGag')) PlayerUnlockInventory('BallGag'); else PlayerLockInventory('BallGag')"><img src="Icons/BallGag_Active.png" style="width: 32px; height: 32px;"></button>
+                <button title="Toggle Blindfold" onclick="if(PlayerHasLockedInventory('Blindfold')) PlayerUnlockInventory('Blindfold'); else PlayerLockInventory('Blindfold')"><img src="Icons/Blindfold_Active.png" style="width: 32px; height: 32px;"></button>
+                <button title="Toggle ButtPlug" onclick="if(PlayerHasLockedInventory('ButtPlug')) PlayerUnlockInventory('ButtPlug'); else PlayerLockInventory('ButtPlug')"><img src="Icons/ButtPlug_Active.png" style="width: 32px; height: 32px;"></button>
+                <button title="Toggle ChastityBelt" onclick="if(PlayerHasLockedInventory('ChastityBelt')) PlayerUnlockInventory('ChastityBelt'); else PlayerLockInventory('ChastityBelt')"><img src="Icons/ChastityBelt_Active.png" style="width: 32px; height: 32px;"></button>
+                <button title="Toggle ClothGag" onclick="if(PlayerHasLockedInventory('ClothGag')) PlayerUnlockInventory('ClothGag'); else PlayerLockInventory('ClothGag')"><img src="Icons/ClothGag_Active.png" style="width: 32px; height: 32px;"></button>
+                <button title="Toggle Collar" onclick="if(PlayerHasLockedInventory('Collar')) PlayerUnlockInventory('Collar'); else PlayerLockInventory('Collar')"><img src="Icons/Collar_Active.png" style="width: 32px; height: 32px;"></button>
+                <button title="Toggle Cuffs" onclick="if(PlayerHasLockedInventory('Cuffs')) PlayerUnlockInventory('Cuffs'); else PlayerLockInventory('Cuffs')"><img src="Icons/Cuffs_Active.png" style="width: 32px; height: 32px;"></button>
+                <button title="Toggle DoubleOpenGag" onclick="if(PlayerHasLockedInventory('DoubleOpenGag')) PlayerUnlockInventory('DoubleOpenGag'); else PlayerLockInventory('DoubleOpenGag')"><img src="Icons/DoubleOpenGag_Active.png" style="width: 32px; height: 32px;"></button>
+                <button title="Toggle PantieGag" onclick="if(PlayerHasLockedInventory('PantieGag')) PlayerUnlockInventory('PantieGag'); else PlayerLockInventory('PantieGag')"><img src="Icons/PantieGag_Active.png" style="width: 32px; height: 32px;"></button>
+                <button title="Toggle Rope" onclick="if(PlayerHasLockedInventory('Rope')) PlayerUnlockInventory('Rope'); else PlayerLockInventory('Rope')"><img src="Icons/Rope_Active.png" style="width: 32px; height: 32px;"></button>
+                <button title="Toggle SockGag" onclick="if(PlayerHasLockedInventory('SockGag')) PlayerUnlockInventory('SockGag'); else PlayerLockInventory('SockGag')"><img src="Icons/SockGag_Active.png" style="width: 32px; height: 32px;"></button>
+                <button title="Toggle TapeGag" onclick="if(PlayerHasLockedInventory('TapeGag')) PlayerUnlockInventory('TapeGag'); else PlayerLockInventory('TapeGag')"><img src="Icons/TapeGag_Active.png" style="width: 32px; height: 32px;"></button>
+                <button title="Toggle VibratingEgg" onclick="if(PlayerHasLockedInventory('VibratingEgg')) PlayerUnlockInventory('VibratingEgg'); else PlayerLockInventory('VibratingEgg')"><img src="Icons/VibratingEgg_Active.png" style="width: 32px; height: 32px;"></button>
+            </fieldset>
+        </div>
+        <div style="display: flex;justify-content: space-between">
+            <fieldset style="width: 46%">
                 <legend>Skill</legend>
                 <div>
                     <button title="Add Arts" onclick="PlayerAddSkill('Arts', 1)">Arts</button>
