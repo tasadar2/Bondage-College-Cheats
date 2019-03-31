@@ -10,13 +10,13 @@ Press the 'C' key to open/close the cheat menu.
 
 ### Automated
 
-This sections will help setup automatic injection of the scripts.
+This section will help setup automatic injection of the scripts.
 
 1. **Install** a script injector
     1. For **Firefox**, install the [Greasemonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey) plugin
     1. For **Chrome**, install the [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) plugin
 1. **Add** the injection script
-    1. **Copy** the content from [https://github.com/pages/tasadar2/Bondage-College-Cheats]()
+    1. **Copy** the content from [src/inject.js](src/inject.js)
     1. **Create** a new script in the script injector
     1. **Paste** the copied content to the newly created script
 1. All set, just **navigate** to an instance of Bondage College, and the script will do all the work
@@ -24,8 +24,8 @@ This sections will help setup automatic injection of the scripts.
 ### Manual
 
 1. **Navigate** to an instance of Bondage College
-1. Copy the content from [src/inject.js](src/inject.js)
-1. Paste the content into your browser's console
+1. **Copy** the content from [src/inject.js](src/inject.js)
+1. **Paste** the content into your browser's console
 
 ## FAQ
 
@@ -41,5 +41,5 @@ Nowadays, modern browsers prevent websites from altering cross-domain content. I
 
 ### Can I get a feature added?
 
-Sure. You can create an issue, or reach out to me if you know where I am.
-And as always, I take pull requests.
+Sure. You can create an [issue](issues), or reach out to me if you know where I am.
+And as always, I take [pull requests](pulls).
