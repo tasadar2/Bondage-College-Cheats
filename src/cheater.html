@@ -2,7 +2,7 @@
     <div style="margin:15% auto;padding:20px;width:60%;background-color:#ffffff;border-radius:8px;">
         <h4 style="margin-top: 0px; text-align: center;">Cheat Menu</h4>
         <div style="display: flex;justify-content: space-between">
-            <fieldset style="width: 50%">
+            <fieldset style="width: 45%">
                 <legend>Conversation</legend>
                 <div>
                     <img src="Icons/Heart.png" />
@@ -15,7 +15,7 @@
                     <button title="Add Submission" onclick="ActorChangeAttitude(0, -1);"><img src="Icons/Navigation/ArrowDownInactive.png" style="width: 32px; height: 32px;"></button>
                 </div>
             </fieldset>
-            <fieldset style="width: 50%">
+            <fieldset style="width: 45%">
                 <legend>Inventory</legend>
                 <button title="Add Armbinder" onclick="PlayerAddInventory('Armbinder', 1)"><img src="Icons/Armbinder_Active.png" style="width: 32px; height: 32px;"></button>
                 <button title="Add BallGag" onclick="PlayerAddInventory('BallGag', 1)"><img src="Icons/BallGag_Active.png" style="width: 32px; height: 32px;"></button>
@@ -37,7 +37,7 @@
             </fieldset>
         </div>
         <div style="display: flex;justify-content: space-between">
-            <fieldset style="width: 50%">
+            <fieldset style="width: 45%">
                 <legend>Time</legend>
                 <div>
                     <img src="Icons/Wait_Active.png" style="width: 32px; height: 32px;" />
@@ -45,6 +45,16 @@
                     <button title="Subtract 10 Minutes" onclick="CurrentTime-=600000"><img src="Icons/Navigation/ArrowDownInactive.png" style="width: 32px; height: 32px;"></button>
                     <button title="Next Event" onclick="CurrentTime=LimitTimer"><img src="Icons/Leave_Inactive.png" style="width: 32px; height: 32px;"></button>
                     <button title="Pause/Resume" onclick="if(RunTimer) StopTimer(CurrentTime); else StartTimer(LimitTimer, LimitChapter, LimitScreen)"><img src="Icons/Wait_Inactive.png" style="width: 32px; height: 32px;"></button>
+                </div>
+            </fieldset>
+            <fieldset style="width: 45%">
+                <legend>Skill</legend>
+                <div>
+                    <button title="Add Arts" onclick="PlayerAddSkill('Arts')">Arts</button>
+                    <button title="Add Fighting" onclick="PlayerAddSkill('Fighting')">Fighting</button>
+                    <button title="Add RopeMastery" onclick="PlayerAddSkill('RopeMastery')">RopeMastery</button>
+                    <button title="Add Sports" onclick="PlayerAddSkill('Sports')">Sports</button>
+                    <button title="Add Seduction" onclick="PlayerAddSkill('Seduction')">Seduction</button>
                 </div>
             </fieldset>
         </div>
