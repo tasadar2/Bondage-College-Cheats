@@ -1,0 +1,20 @@
+{
+  "name": "bondage-college-cheats",
+  "version": "1.0.0",
+  "description": "This will add a set of cheat options to Bondage College.",
+  "scripts": {
+    "build": "scri build"
+  },
+  "author": "tasadar2 <https://github.com/tasadar2>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tasadar2/Bondage-College-Cheats"
+  },
+  "license": "Unlicense",
+  "devDependencies": {
+    "@types/node": "^11.12.2",
+    "scriptastic": "^1.0.6",
+    "ts-node": "^8.0.3",
+    "typescript": "^3.4.1"
+  }
+}
