@@ -44,6 +44,7 @@
                     <button onclick="CurrentTime+=600000"><img src="Icons/Navigation/ArrowUpInactive.png" style="width: 32px; height: 32px;"></button>
                     <button onclick="CurrentTime-=600000"><img src="Icons/Navigation/ArrowDownInactive.png" style="width: 32px; height: 32px;"></button>
                     <button onclick="CurrentTime=LimitTimer"><img src="Icons/Leave_Inactive.png" style="width: 32px; height: 32px;"></button>
+                    <button onclick="if(RunTimer) StopTimer(CurrentTime); else StartTimer(LimitTimer, LimitChapter, LimitScreen)"><img src="Icons/Wait_Inactive.png" style="width: 32px; height: 32px;"></button>
                 </div>
             </fieldset>
         </div>

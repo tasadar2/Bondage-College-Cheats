@@ -7,9 +7,11 @@
 // ==/UserScript==
 
 function inject() {
-    var script = document.createElement("script");
-    script.src = "https://tasadar2.github.io/Bondage-College-Cheats/dist/cheater.js"
-    document.body.appendChild(script);
+    if (!window.location.href.includes("BondageClub")) {
+        var script = document.createElement("script");
+        script.src = "https://tasadar2.github.io/Bondage-College-Cheats/dist/cheater.js";
+        document.body.appendChild(script);
+    }
 }
 
 window.addEventListener("load", function (e) {
