@@ -4,7 +4,7 @@ This will add a set of cheat options to Bondage College.
 
 ## Usage
 
-Press the 'C' key to open/close the cheat menu.
+Press the 'C' key, or double-click the clock icon to open/close the cheat menu.
 
 ## Setup
 

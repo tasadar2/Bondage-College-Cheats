@@ -1,4 +1,5 @@
 class Cheat {
+    private lastClockClick = 0;
 
     constructor() {
         window.addEventListener("load", () => this.init());
@@ -15,6 +16,23 @@ class Cheat {
                 this.toggle(modal);
             }
         });
+        const mainCanvas = document.getElementById("MainCanvas");
+        if (mainCanvas) {
+            mainCanvas.addEventListener("click", (e) => {
+                // Clock icon
+                if (e.offsetX > 990 && e.offsetX < 1060 &&
+                    e.offsetY > 605 && e.offsetY < 675) {
+                    const now = Date.now();
+                    if (now - this.lastClockClick < 1000) {
+                        const modal = document.getElementById("cheat");
+                        this.toggle(modal);
+                        this.lastClockClick = 0;
+                    } else {
+                        this.lastClockClick = now;
+                    }
+                }
+            });
+        }
     }
 
     public toggle(element: HTMLElement | null) {
