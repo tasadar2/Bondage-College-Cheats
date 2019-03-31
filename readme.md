@@ -41,5 +41,5 @@ Nowadays, modern browsers prevent websites from altering cross-domain content. I
 
 ### Can I get a feature added?
 
-Sure. You can create an [issue](issues), or reach out to me if you know where I am.
-And as always, I take [pull requests](pulls).
+Sure. You can create an [issue](../../issues), or reach out to me if you know where I am.
+And as always, I take [pull requests](../../pulls).
