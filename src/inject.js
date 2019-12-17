@@ -2,6 +2,8 @@
 // @name            bondage-college-cheats
 // @namespace       bondage-college
 // @include         http://ben987.x10host.com/*
+// @include         http://www.bondageprojects.elementfx.com/*
+// @include         https://www.bondageprojects.elementfx.com/*
 // @version         1
 // @grant           none
 // ==/UserScript==
